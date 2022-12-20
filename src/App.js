@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "component/About";
+import Works from "component/Works";
+import { useState } from "react";
+import "./App.css";
+import Header from "./component/Header";
+import Hero from "./component/Hero";
+import main from "./json/main.json";
 
 function App() {
+  const [state, setState] = useState({
+    hero: {},
+    isLoading: true,
+  });
+
+  useState(() => {
+    fetch(
+      "https://my-json-server.typicode.com/gunawansetia/portfolioAPI_1/hero"
+    )
+      .then((response) => response.json())
+      .then((data) => setState({ hero: data, isLoading: false }));
+  });
+
+  if (state.isLoading) {
+    return <p className="App">Loading...</p>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero data={state.hero} />
+      <Works data={main.works} />
+      <About />
+    </>
   );
 }
 
