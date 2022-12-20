@@ -1,4 +1,5 @@
 import About from "component/About";
+import Footer from "component/Footer";
 import Works from "component/Works";
 import { useState } from "react";
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
       <Hero data={state.hero} />
       <Works data={main.works} />
       <About />
+      <Footer />
     </>
   );
 }
