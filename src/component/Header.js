@@ -9,6 +9,13 @@ export default function Header(props) {
   });
   const [isActive, setIsActive] = useState(0);
 
+  const showHome = () => {
+    window.scrollTo({
+      top: props.refHome.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   const showWorks = () => {
     window.scrollTo({
       top: props.refWorks.current.offsetTop,
@@ -99,7 +106,7 @@ export default function Header(props) {
                   isActive === 0 ? "nav-item mr-4 active" : "nav-item mr-4"
                 }
               >
-                <a className="nav-link" href="#home">
+                <a className="nav-link" href="#home" onClick={showHome}>
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>

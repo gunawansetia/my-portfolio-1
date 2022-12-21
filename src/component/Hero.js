@@ -6,7 +6,7 @@ export default function Hero(props) {
   const gambarHero = props.data.picture;
 
   return (
-    <section id="home" className="bg-bluelight mb-5" ref={props.refHome}>
+    <section className="bg-bluelight mb-5" ref={props.refHome}>
       <div className="container-sm">
         <div className="row mt-5 d-flex align-items-center bg-bluelight">
           <div className="col-md mt-5 bg-bluelight ">

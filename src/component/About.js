@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About(props) {
   return (
-    <section id="about" className="bg-bluelight py-5" ref={props.refAbout}>
+    <section className="bg-bluelight py-5" ref={props.refAbout}>
       <div className="container-md">
         <div className="row d-flex align-items-center">
           <div className="col-md-7 size-medium ">
