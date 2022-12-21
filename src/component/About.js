@@ -13,7 +13,7 @@ export default function About(props) {
                 rel="noreferrer"
                 href="https://icons8.com/icon"
               >
-                React, bootstrap, JSON
+                React, Bootstrap, JSON
               </a>{" "}
               icon by{" "}
               <a target="_blank" rel="noreferrer" href="https://icons8.com">

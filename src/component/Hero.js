@@ -8,7 +8,7 @@ export default function Hero(props) {
   return (
     <section className="bg-bluelight mb-5" ref={props.refHome}>
       <div className="container-sm">
-        <div className="row mt-5 d-flex align-items-center bg-bluelight">
+        <div className="row d-flex align-items-center bg-bluelight">
           <div className="col-md mt-5 bg-bluelight ">
             <h1 className="primary-color size-100">I Am</h1>
             <h1 className="primary-color">Gunawan Setia Wiguna</h1>

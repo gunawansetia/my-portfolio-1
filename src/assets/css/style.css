@@ -19,7 +19,8 @@ body {
     top: 30px;
     right: 0;
     text-align: center;
-  
+    opacity: 0.1;
+    transition: 1s;
 }
 .pin-navbar.reverse {
     background-image: url("../img/pin-bawah.svg");
@@ -30,7 +31,7 @@ body {
 
 }
 
-.pin-navbar.reverse:hover {
+.pin-navbar.reverse:hover, .pin-navbar:hover {
     opacity: 1;
 }
 
@@ -79,6 +80,7 @@ a.btn-linkedin:hover {
     background-color: #2a75c0;
     color: white;
 }
+
 
 .shadow-navbar {
     box-shadow: 0 0 10px 4px #EDEDED;

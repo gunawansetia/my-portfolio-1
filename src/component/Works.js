@@ -19,13 +19,26 @@ export default function Works(props) {
             <h3 className="secondary-color font-weight-light">{value.title}</h3>
             <p className="p-color">{value.paragraph}</p>
             <a
-              className="btn btn-dark btn-github"
+              className="btn btn-dark btn-github mr-3"
               href={value.linkgithub}
               role="button"
               target="_blank"
               rel="noreferrer"
             >
               Github
+            </a>
+            <a
+              className={
+                value.linkproject
+                  ? "btn btn-primary btn-md"
+                  : "btn btn-primary btn-md disabled"
+              }
+              href={value.linkproject}
+              role="button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Project
             </a>
           </div>
         </div>
