@@ -8,7 +8,7 @@ export default function Works(props) {
           className="row d-flex align-items-center mt-4 mb-5 py-4  shadow-project"
           key={index}
         >
-          <div className="col-md ml-4">
+          <div className="col-md mx-5">
             <img
               src={value.picture}
               alt={value.altpicture}
