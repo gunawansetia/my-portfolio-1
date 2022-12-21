@@ -54,12 +54,16 @@ export default function Header(props) {
           window.innerHeight / 2
       ) {
         setIsActive(1);
-      } else setIsActive(2);
+      } else if (
+        props.refAbout.current.offsetTop - window.scrollY <=
+        window.innerHeight / 2
+      ) {
+        setIsActive(2);
+      }
     };
     document.addEventListener("scroll", handleScroll);
     return () => {
       document.removeEventListener("scroll", handleScroll);
-      console.log(props.refAbout.current.offsetTop);
     };
   }, [props]);
 
@@ -72,7 +76,7 @@ export default function Header(props) {
         <i className={className} onClick={handleClick} type="button" />
       </div>
       <nav
-        className={`navbar navbar-expand-lg navbar-light bg-white shadow-navbar sticky-top m-4${navClass}`}
+        className={`navbar navbar-expand-lg navbar-light bg-white shadow-navbar sticky-top m-4 ${navClass}`}
       >
         <div className="container">
           <div

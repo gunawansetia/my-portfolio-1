@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-md">
             <h4>Contact</h4>
-            <p> 📩 @newgunawansetiawiguna@gmail.com</p>
+            <p className="p-style"> 📩 @newgunawansetiawiguna@gmail.com</p>
             <a
               href="https://www.linkedin.com/in/gunawansetia"
               target="_blank"
@@ -21,7 +21,9 @@ export default function Footer() {
         </div>
         <div className="row mt-5">
           <div className="col-md text-center">
-            <p>Copyrights 2022 • All rights reserved • Gunawan Setia</p>
+            <p className="p-style">
+              Copyrights 2022 • All rights reserved • Gunawan Setia
+            </p>
             <hr />
           </div>
         </div>

@@ -15,9 +15,9 @@ export default function Works(props) {
               className="img-fluid"
             />
           </div>
-          <div className="col-md-8">
-            <h3 className="secondary-color font-weight-light">{value.title}</h3>
-            <p className="p-color">{value.paragraph}</p>
+          <div className="col-md-8 ">
+            <h3 className="third-color font-weight-light">{value.title}</h3>
+            <p className="p-style">{value.paragraph}</p>
             <a
               className="btn btn-dark btn-github mr-3"
               href={value.linkgithub}
@@ -29,7 +29,7 @@ export default function Works(props) {
             </a>
             <a
               className={
-                value.linkproject
+                value.linkproject !== "#"
                   ? "btn btn-primary btn-md"
                   : "btn btn-primary btn-md disabled"
               }
@@ -50,7 +50,7 @@ export default function Works(props) {
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <h1 className="primary-color">My Project</h1>
+            <h1 className="third-color">My Project</h1>
           </div>
         </div>
         <MyWork />

@@ -12,9 +12,9 @@ export default function Hero(props) {
           <div className="col-md mt-5 bg-bluelight ">
             <h1 className="primary-color size-100">I Am</h1>
             <h1 className="primary-color">Gunawan Setia Wiguna</h1>
-            <p className="p-color">{caption}</p>
+            <p className="p-style primary-color">{caption}</p>
           </div>
-          <div className="col-md mt-5 d-flex justify-content-center ">
+          <div className="col-md d-flex justify-content-center ">
             <img
               className="bg-white"
               width="80%"

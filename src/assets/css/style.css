@@ -53,17 +53,28 @@ ul.navbar-nav li.nav-item > a.nav-link {
 }
 
 .primary-color {
-    color: #000000;
+    color: #ffffff;
 }
 
 .secondary-color {
     color: #23ACFF;
 }
 
-.p-color {
+.gray-color {
     color: #474747;
+}
+
+.p-style {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+.third-color {
+    color: #1991B3;
+}
+
+a.btn-md {
+    width: 200px;
 }
 
 a.btn-github {
@@ -98,16 +109,18 @@ a.btn-linkedin:hover {
     
     }
     h1, h2, h3, h4, h5, h6, p {
-        text-align: center;
+        text-align: left;
     }
+    h1, h3, h4 {font-size: 6vw;}
+    p {font-size: 4vw;}
     .size-medium {
         margin-bottom: 2rem;
     }
+    div > h1.size-100 {font-size: 20vw;}
     a.btn-linkedin {
         width: 100%;
     }
-    a.btn-md, a.btn-github {
-    
+       a.btn-md, a.btn-github {
         margin-bottom: 10px;
         width: 100%
     }
@@ -121,11 +134,13 @@ h1.size-100 {
 }
 
 .bg-bluelight {
-    background-color: #D7F5FF;
+    background-color: #23ACFF;
 }
 
-
+.bg-graylight {
+    background-color: #FCFCFC;
+}
 
 .bg-gray {
-    background-color: #88E1FF;
+    background-color: #F5F5F5;
 }
