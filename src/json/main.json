@@ -6,7 +6,7 @@
     },
     "works" : [
         {
-            "picture": "/images/ss_works_1.jpg",
+            "picture": "images/ss_works_1.jpg",
             "altpicture": "schreenshoot project",
             "title" : "Tanya Hadis Bot",
             "paragraph": "The bot is created as my campus final task. For access the bot, using Telegram apss and search the id bot: @TanyaHadisBot",
