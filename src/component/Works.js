@@ -22,6 +22,8 @@ export default function Works(props) {
               className="btn btn-dark btn-github"
               href={value.linkgithub}
               role="button"
+              target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -31,7 +33,7 @@ export default function Works(props) {
     });
 
   return (
-    <section id="works" className="mb-5">
+    <section className="mb-5" ref={props.refWorks}>
       <div className="container">
         <div className="row">
           <div className="col-md">

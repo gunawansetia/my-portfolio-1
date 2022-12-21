@@ -1,7 +1,7 @@
 import About from "component/About";
 import Footer from "component/Footer";
 import Works from "component/Works";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
@@ -13,6 +13,10 @@ function App() {
     isLoading: true,
   });
 
+  const refWorks = useRef(null);
+  const refHome = useRef(null);
+  const refAbout = useRef(null);
+
   useState(() => {
     fetch(
       "https://my-json-server.typicode.com/gunawansetia/portfolioAPI_1/hero"
@@ -22,15 +26,28 @@ function App() {
   });
 
   if (state.isLoading) {
-    return <p className="App">Loading...</p>;
+    return (
+      <div className="container">
+        <div className="App-header">
+          <button className="btn btn-primary" type="button" disabled>
+            <span
+              className="spinner-grow spinner-grow-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+            Loading...
+          </button>
+        </div>
+      </div>
+    );
   }
 
   return (
     <>
-      <Header />
-      <Hero data={state.hero} />
-      <Works data={main.works} />
-      <About />
+      <Header refWorks={refWorks} refAbout={refAbout} refHome={refHome} />
+      <Hero refHome={refHome} data={state.hero} />
+      <Works refWorks={refWorks} data={main.works} />
+      <About refAbout={refAbout} />
       <Footer />
     </>
   );

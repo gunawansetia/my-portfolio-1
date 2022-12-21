@@ -19,12 +19,15 @@ body {
     top: 30px;
     right: 0;
     text-align: center;
+  
 }
 .pin-navbar.reverse {
     background-image: url("../img/pin-bawah.svg");
     position: fixed;
     z-index: 999;
     opacity: 0.1;
+    transition: 1s;
+
 }
 
 .pin-navbar.reverse:hover {
@@ -37,6 +40,10 @@ body {
 }
 
 ul.navbar-nav li.nav-item.active > a.nav-link {
+    color: #23ACFF;
+}
+
+ul.navbar-nav li.nav-item {
     color: #23ACFF;
 }
 
@@ -66,6 +73,11 @@ a.btn-linkedin {
     background-color: #0A66C2;
     color: white;
     width: 200px;
+}
+
+a.btn-linkedin:hover {
+    background-color: #2a75c0;
+    color: white;
 }
 
 .shadow-navbar {
@@ -104,7 +116,6 @@ h1.size-100 {
 .bg-bluelight {
     background-color: #D7F5FF;
 }
-
 
 
 

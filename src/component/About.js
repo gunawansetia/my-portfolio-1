@@ -1,12 +1,25 @@
 import React from "react";
 
-export default function About() {
+export default function About(props) {
   return (
-    <section id="about" className="bg-bluelight py-5">
+    <section id="about" className="bg-bluelight py-5" ref={props.refAbout}>
       <div className="container-md">
         <div className="row d-flex align-items-center">
           <div className="col-md-7 size-medium ">
             <h1 className="secondary-color">Tools used for build this web</h1>
+            <p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://icons8.com/icon"
+              >
+                React, bootstrap, JSON
+              </a>{" "}
+              icon by{" "}
+              <a target="_blank" rel="noreferrer" href="https://icons8.com">
+                Icons8
+              </a>
+            </p>
           </div>
           <div className="col-md d-flex justify-content-between ">
             <img width="100rem" src="images/ic_react.svg" alt="logo react" />

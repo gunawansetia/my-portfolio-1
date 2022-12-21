@@ -8,7 +8,13 @@ export default function Footer() {
           <div className="col-md">
             <h4>Contact</h4>
             <p> 📩 @newgunawansetiawiguna@gmail.com</p>
-            <a href="" type="button" className="btn btn-linkedin">
+            <a
+              href="https://www.linkedin.com/in/gunawansetia"
+              target="_blank"
+              rel="noreferrer"
+              type="button"
+              className="btn btn-linkedin"
+            >
               Linkedin
             </a>
           </div>
