@@ -15,7 +15,7 @@ export default function Works(props) {
               className="img-fluid"
             />
           </div>
-          <div className="col-md-8 mx-5">
+          <div className="col-md-8">
             <h3 className="secondary-color font-weight-light">{value.title}</h3>
             <p className="p-color">{value.paragraph}</p>
             <a
