@@ -28,7 +28,7 @@ export default function About(props) {
               src="images/ic_bootstrap.svg"
               alt="logo bootstrap"
             />
-            <img width="100rem" src="/images/ic_jsoon.svg" alt="logo JSON" />
+            <img width="100rem" src="images/ic_jsoon.svg" alt="logo JSON" />
           </div>
         </div>
       </div>
