@@ -1,7 +1,7 @@
 import About from "component/About";
 import Footer from "component/Footer";
 import Works from "component/Works";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
@@ -17,7 +17,7 @@ function App() {
   const refHome = useRef(null);
   const refAbout = useRef(null);
 
-  useState(() => {
+  useEffect(() => {
     fetch(
       "https://my-json-server.typicode.com/gunawansetia/portfolioAPI_1/hero"
     )
