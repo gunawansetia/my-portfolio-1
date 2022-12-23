@@ -23,7 +23,7 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => setState({ hero: data, isLoading: false }));
-  });
+  }, []);
 
   if (state.isLoading) {
     return (
