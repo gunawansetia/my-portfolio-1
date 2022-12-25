@@ -7,7 +7,7 @@ export default function About(props) {
         <div className="row d-flex align-items-center">
           <div className="col-md-7 size-medium ">
             <h1 className="third-color">Tools used for build this web</h1>
-            <p>
+            <p className="p-style">
               <a
                 target="_blank"
                 rel="noreferrer"

@@ -52,6 +52,11 @@ ul.navbar-nav li.nav-item > a.nav-link {
     color: #84BCDE;
 }
 
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #84BCDE;
+}
+
+
 .primary-color {
     color: #ffffff;
 }
@@ -99,34 +104,10 @@ a.btn-linkedin:hover {
 }
 .shadow-project {
     box-shadow: 0 2px 5px #23ACFF;
-    border-radius: 25px;
-
+    border-radius: 10px;
 
 }
-@media (max-width: 576px) {
-    .shadow-project {
-     margin: 0px 20px;
-    
-    }
-    h1, h2, h3, h4, h5, h6, p {
-        text-align: left;
-    }
-    h1, h3, h4 {font-size: 6vw;}
-    p {font-size: 4vw;}
-    .size-medium {
-        margin-bottom: 2rem;
-    }
-    div > h1.size-100 {font-size: 20vw;}
-    a.btn-linkedin {
-        width: 100%;
-    }
-       a.btn-md, a.btn-github {
-        margin-bottom: 10px;
-        width: 100%
-    }
 
-    
-}
 h1.size-100 {
     font-size: 7rem;
     margin: 0;
@@ -143,4 +124,47 @@ h1.size-100 {
 
 .bg-gray {
     background-color: #F5F5F5;
+}
+
+.col-md.no-padding {
+    padding: 0;
+}
+
+
+.img-fluid.round {
+    border-radius: 10px 0 0 10px;
+}
+
+@media (max-width: 991.98px) {
+    .p-style {font-size: 0.75rem;}
+}
+
+@media (max-width: 576px) {
+    .shadow-project {
+     margin: 0px 20px;
+    
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: left;
+    }
+    h1, h3, h4 {font-size: 5vw;}
+
+    .p-style{font-size: 3vw;}
+
+    .size-medium {
+        margin-bottom: 2rem;
+    }
+    div > h1.size-100 {font-size: 20vw;}
+    a.btn-linkedin {
+        width: 100%;
+    }
+       a.btn-md, a.btn-github {
+        margin-bottom: 10px;
+        width: 100%
+    }
+
+    .img-fluid.round {
+        border-radius: 10px 10px 0 0;
+    }
+    
 }

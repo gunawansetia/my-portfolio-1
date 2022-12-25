@@ -1,17 +1,25 @@
 {
-    "hero" :{
-        "title": "I'M Gunawan Setia Wiguna",
-        "paragraph": "My role is a front-end developer. This website is the first of my portfolio as a front-end Developer.",
-        "picture" : "/my-portfolio-1/public/images/Programming-rafiki.svg"
+  "hero": {
+    "title": "I'M Gunawan Setia Wiguna",
+    "paragraph": "My role is a front-end developer. This website is the  first of my portfolio as a front-end Developer.",
+    "picture": "/my-portfolio-1/public/images/Programming-rafiki.svg"
+  },
+  "works": [
+    {
+      "picture": "images/ss_works-1.png",
+      "altpicture": "mockup project 1",
+      "title": "Tanya Hadis Bot",
+      "paragraph": "The bot is created as my campus final task. For access the  bot, using Telegram apss and search the id bot: @TanyaHadisBot.",
+      "linkgithub": "https://github.com/gunawansetia/bot-tanya-hadis-clone",
+      "linkproject": "#"
     },
-    "works" : [
-        {
-            "picture": "images/ss_works_1.jpg",
-            "altpicture": "schreenshoot project",
-            "title" : "Tanya Hadis Bot",
-            "paragraph": "The bot is created as my campus final task. For access the bot, using Telegram apss and search the id bot: @TanyaHadisBot",
-            "linkgithub": "https://github.com/gunawansetia/bot-tanya-hadis-clone",
-            "linkproject": "#"
-        }
-    ]
+    {
+      "picture": "images/ss_works-2.png",
+      "altpicture": "mockup project 2",
+      "title": "Tabel Siswa SMA",
+      "paragraph": "The website was created as my output of learning about react-redux with CRUD table (Create, Read, Update, and Delete). This website use mui-material (react component library) and Axios & Fetch to get API from dummyjson.com.",
+      "linkgithub": "https://github.com/gunawansetia/tabel-siswa-sma",
+      "linkproject": "https://tabel-siswa-sma.vercel.app/"
+    }
+  ]
 }
