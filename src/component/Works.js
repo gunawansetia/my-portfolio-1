@@ -41,7 +41,7 @@ export default function Works(props) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Project
+                  Project 🚀
                 </a>
               </div>
             </div>
