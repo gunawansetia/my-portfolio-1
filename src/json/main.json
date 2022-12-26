@@ -6,20 +6,22 @@
   },
   "works": [
     {
-      "picture": "images/ss_works-1.png",
-      "altpicture": "mockup project 1",
-      "title": "Tanya Hadis Bot",
-      "paragraph": "Tanya Hadis Bot is my final campus project. To access the bot, use Telegram apps and search the id bot: @TanyaHadisBot.",
-      "linkgithub": "https://github.com/gunawansetia/bot-tanya-hadis-clone",
-      "linkproject": "#"
-    },
-    {
       "picture": "images/ss_works-2.png",
       "altpicture": "mockup project 2",
       "title": "Tabel Siswa SMA",
       "paragraph": "The website is the result of my learning about react-redux with CRUD table (Create, Read, Update, and Delete). This website use mui-material (react component library) and Axios & Fetch to get API from dummyjson.com.",
+      "date": "📅 22-24 Desember 2022",
       "linkgithub": "https://github.com/gunawansetia/tabel-siswa-sma",
       "linkproject": "https://tabel-siswa-sma.vercel.app/"
+    },
+    {
+      "picture": "images/ss_works-1.png",
+      "altpicture": "mockup project 1",
+      "title": "Tanya Hadis Bot",
+      "paragraph": "Tanya Hadis Bot is my final campus project. To access the bot, use Telegram apps and search the id bot: @TanyaHadisBot.",
+      "date": "📅 April 2022-Juni 2022",
+      "linkgithub": "https://github.com/gunawansetia/bot-tanya-hadis-clone",
+      "linkproject": "#"
     }
   ]
 }

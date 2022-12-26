@@ -5,7 +5,7 @@ export default function Works(props) {
     props.data.map((value, index) => {
       return (
         <div
-          className="card border-0 mb-3 mt-4 mb-5 shadow-project"
+          className="card border-0  mt-4 mb-5 shadow-project"
           style={{ maxWidth: "1235px" }}
           key={index}
         >
@@ -19,8 +19,9 @@ export default function Works(props) {
             </div>
             <div className="col-md-7 ">
               <div className="card-body mx-3">
-                <h3 className="third-color font-weight-light">{value.title}</h3>
+                <h4 className="third-color font-weight-light">{value.title}</h4>
                 <p className="p-style">{value.paragraph}</p>
+                <p className="p-style is-bold">{value.date}</p>
                 <a
                   className="btn btn-dark btn-github mr-3 my-1"
                   href={value.linkgithub}

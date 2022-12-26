@@ -135,8 +135,15 @@ h1.size-100 {
     border-radius: 10px 0 0 10px;
 }
 
+.p-style.is-bold {
+    font-weight: 400;
+}
+
 @media (max-width: 991.98px) {
     .p-style {font-size: 0.9rem;}
+    a.btn-github,a.btn-primary {
+        width: 150px;
+    }
 }
 
 @media (max-width: 576px) {
