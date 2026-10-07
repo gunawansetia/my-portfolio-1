@@ -22,12 +22,7 @@ function App() {
       "https://my-json-server.typicode.com/gunawansetia/portfolioAPI_1/hero"
     )
       .then((response) => response.json())
-      .then((data) => setState({ hero: data, isLoading: false })).catch(() => {
-        setState({
-          hero: null,
-          isLoading: false,
-        })
-      });
+      .then((data) => setState({ hero: data, isLoading: false }));
   }, []);
 
   if (state.isLoading) {
@@ -50,7 +45,7 @@ function App() {
   return (
     <>
       <Header refWorks={refWorks} refAbout={refAbout} refHome={refHome} />
-      <Hero refHome={refHome} data={state.hero || main.hero} />
+      <Hero refHome={refHome} data={state.hero} />
       <Works refWorks={refWorks} data={main.works} />
       <About refAbout={refAbout} />
       <Footer />

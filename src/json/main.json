@@ -2,72 +2,26 @@
   "hero": {
     "title": "I'M Gunawan Setia Wiguna",
     "paragraph": "My role is a front-end developer. This website is the first of my portfolio as a front-end Developer.",
-    "picture": "images/Programming-rafiki.svg"
+    "picture": "/my-portfolio-1/public/images/Programming-rafiki.svg"
   },
   "works": [
-    {
-      "picture": "images/mie-ayam-pak-de-vespa.jpg",
-      "altpicture": "Landing Page Mie Ayam Pak De Vespa",
-      "title": "Landing Page Mie Ayam Pak De Vespa",
-      "paragraph": "A profile website and landing page for the culinary business Mie Ayam Pak De Vespa in Pekanbaru. It features signature menus, operational schedules, Google Maps location, and WhatsApp order integration. Built using Antigravity (Agentic Coding), Tailwind, and Semantic HTML.",
-      "tools": [
-        "Antigravity (Agentic Coding)",
-        "Tailwind",
-        "Semantic HTML"
-      ],
-      "date": "📅 March 2026",
-      "linkgithub": "",
-      "hideGithub": true,
-      "linkproject": "https://www.mieayampakdevespa.com/",
-      "fallbackImage": "images/fallback-project.svg"
-    },
-    {
-      "picture": "images/bicaraaja-ai.png",
-      "altpicture": "BicaraAja.AI",
-      "title": "BicaraAja.AI",
-      "paragraph": "A web application that helps high school students and corporate professionals compose the right communication statements for conversational partners across different social hierarchies (teachers, school principals, managers, or colleagues) with a privacy-first, login-free experience. Built using Kiro (specs coding), Gemini AI (Ai Engine), and Next JS.",
-      "tools": [
-        "Kiro (specs coding)",
-        "Gemini AI (Ai Engine)",
-        "Next JS"
-      ],
-      "date": "📅 May 2026",
-      "linkgithub": "https://github.com/gunawansetia/BicaraAja.AI",
-      "hideGithub": false,
-      "linkproject": "#",
-      "fallbackImage": "images/fallback-project.svg"
-    },
     {
       "picture": "images/ss_works-2.png",
       "altpicture": "mockup project 2",
       "title": "Tabel Siswa SMA",
       "paragraph": "The website is the result of my learning about react-redux with CRUD table (Create, Read, Update, and Delete). This website use mui-material (react component library) and Axios & Fetch to get API from dummyjson.com.",
-      "tools": [
-        "React",
-        "Redux",
-        "MUI-Material",
-        "Axios"
-      ],
       "date": "📅 22-24 Desember 2022",
       "linkgithub": "https://github.com/gunawansetia/tabel-siswa-sma",
-      "hideGithub": false,
-      "linkproject": "https://tabel-siswa-sma.vercel.app/",
-      "fallbackImage": "images/fallback-project.svg"
+      "linkproject": "https://tabel-siswa-sma.vercel.app/"
     },
     {
       "picture": "images/ss_works-1.png",
       "altpicture": "mockup project 1",
       "title": "Tanya Hadis Bot",
       "paragraph": "Tanya Hadis Bot is my final campus project. To access the bot, use Telegram apps and search the id bot: @TanyaHadisBot.",
-      "tools": [
-        "Telegram Bot API",
-        "Node.js"
-      ],
       "date": "📅 April 2022-Juni 2022",
       "linkgithub": "https://github.com/gunawansetia/bot-tanya-hadis-clone",
-      "hideGithub": false,
-      "linkproject": "#",
-      "fallbackImage": "images/fallback-project.svg"
+      "linkproject": "#"
     }
   ]
 }

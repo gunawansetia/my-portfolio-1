@@ -1,15 +1,5 @@
 import React from "react";
 
-function getAssetUrl(path) {
-  if (!path) return "";
-  if (path.startsWith("http://") || path.startsWith("https://") || path.startsWith("data:")) {
-    return path;
-  }
-  const clean = path.startsWith("/") ? path.slice(1) : path;
-  const publicUrl = process.env.PUBLIC_URL || "";
-  return publicUrl ? `${publicUrl}/${clean}` : `/${clean}`;
-}
-
 export default function Hero(props) {
   if (!props.data) return null;
   const caption = props.data.paragraph;
@@ -28,7 +18,7 @@ export default function Hero(props) {
             <img
               className="bg-white"
               width="80%"
-              src={getAssetUrl(gambarHero)}
+              src={gambarHero}
               alt="Gambar Hero"
             />
           </div>
